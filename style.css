@@ -29,3 +29,20 @@ body{
     height: 3px; /* Altura da linha */
     background: lightgray; /* Cor da linha */
 }
+
+#categorias {
+color: black
+
+}
+ul li { /* Largura da imagem em pixels */
+  height: auto; /* Altura automática para manter a proporção original */
+  top: 80px; /* Ajuste conforme necessário para posicionar acima do item */
+  right: 50%;
+color: black;
+}
+#linha-horizontal-pequena {
+    margin: 0%;
+    width: 20%;
+    height: 1px; /* Altura da linha */
+    background: lightgray; /* Cor da linha */
+}
