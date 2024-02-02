@@ -5,24 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Catálogo de Produtos</title>
+    <script
+      src="https://kit.fontawesome.com/515f5b0d9b.js"
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <input type="text" id="search" name="q" placeholder="O que você procura?" />
 
-      
-        <input type="text" id="search" name="q" placeholder="O que você procura?">
-        
-    
     <div id="linha-horizontal"></div>
 
     <img src="Icone.jpg" id="iconeloja" />
     <img src="lupa.jpg" id="iconelupa" />
+    <img src="avental.jpg" id="iconeavental" />
+    <img src="banco.jpg" id="iconebanco" />
+    <img src="almofada de pescoço.jpg" id="iconealmofada" />
     <div id="categorias">
       <h3>categorias</h3>
 
       <ul>
         <li>
-          <a href="#">Tudo</a>
+          <a href="#" class="ativo">Tudo</a>
         </li>
         <li>
           <a href="#">Almofadas</a>
@@ -63,14 +68,34 @@
       </ul>
       <div id="linha-horizontal-pequena"></div>
       <ul>
-        <li>(32) 99838 2318</li>
-        <li>(32) 33541060</li>
-        <li>sac@ddbartesanato.com.br</li>
-        <li>@ddbartesanato</li>
-        <li>Avenida Alfredo Penido, 845</li>
-        <li>Nossa Senhora Da Penha</li>
-        <li>Resende Costa, Minas Gerais</li>
+        <a href="">
+          <span class="fa-brands fa-whatsapp"></span>
+          <span>(32) 99838 2318</span>
+        </a>
+        <a href="">
+          <span class="fa-solid fa-phone"></span>
+          <span>(32) 33541060</span>
+        </a>
+        <a href="">
+          <span class="fa-regular fa-envelope"></span>
+          <span>sac@ddbartesanato.com.br</span>
+        </a>
+        <a href="">
+          <span class="fa-brands fa-instagram"></span>
+          <span>@ddbartesanato</span>
+        </a>
+        <a href="">
+          <span class="fa-solid fa-location-dot"></span>
+          <span>Avenida Alfredo Penido, 845 
+            <br>
+            Nossa Senhora Da Penha
+            Resende Costa, Minas Gerais
+          </span>
+        </a>
+       
       </ul>
+     
     </div>
   </body>
 </html>
+
