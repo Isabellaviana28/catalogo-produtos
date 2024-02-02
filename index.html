@@ -13,15 +13,25 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <input type="text" id="search" name="q" placeholder="O que você procura?" />
+    <header>
+      <input
+        type="text"
+        id="search"
+        name="q"
+        placeholder="O que você procura?"
+      />
 
-    <div id="linha-horizontal"></div>
+      <div id="linha-horizontal"></div>
+      <img src="Icone.jpg" id="iconeloja" />
+      <img src="lupa.jpg" id="iconelupa" />
+    </header>
 
-    <img src="Icone.jpg" id="iconeloja" />
-    <img src="lupa.jpg" id="iconelupa" />
-    <img src="avental.jpg" id="iconeavental" />
-    <img src="banco.jpg" id="iconebanco" />
-    <img src="almofada de pescoço.jpg" id="iconealmofada" />
+    <div class="produtos">
+      <div class="produto">
+        <img src="avental.jpg" id="iconeavental" />
+      </div>
+    </div>
+
     <div id="categorias">
       <h3>categorias</h3>
 
@@ -59,43 +69,61 @@
       </ul>
       <div id="exibicao">Modo de exibição</div>
       <ul>
-        <li>
-          <a href="#">Instaview</a>
-        </li>
-        <li>
-          <a href="#">Lista</a>
-        </li>
+        <div class="TV">
+          <a href="">
+            <span class="fa-solid fa-tv"></span>
+            <span>Instaview</span>
+          </a>
+        </div>
+        <div class="lista">
+          <a href="">
+            <span class="fa-solid fa-list"></span>
+            <span>Lista</span>
+          </a>
+        </div>
       </ul>
+
       <div id="linha-horizontal-pequena"></div>
-      <ul>
+
+      <div class="whats">
         <a href="">
           <span class="fa-brands fa-whatsapp"></span>
           <span>(32) 99838 2318</span>
         </a>
+      </div>
+
+      <div class="telefone">
         <a href="">
           <span class="fa-solid fa-phone"></span>
           <span>(32) 33541060</span>
         </a>
+      </div>
+      <div class="email">
         <a href="">
           <span class="fa-regular fa-envelope"></span>
           <span>sac@ddbartesanato.com.br</span>
         </a>
+      </div>
+
+      <div class="insta">
         <a href="">
           <span class="fa-brands fa-instagram"></span>
           <span>@ddbartesanato</span>
         </a>
+      </div>
+
+      <div class="endereco">
         <a href="">
           <span class="fa-solid fa-location-dot"></span>
-          <span>Avenida Alfredo Penido, 845 
-            <br>
-            Nossa Senhora Da Penha
-            Resende Costa, Minas Gerais
+          <span
+            >Avenida Alfredo Penido, 845
+            <br />
+            Nossa Senhora Da Penha Resende Costa, Minas Gerais
           </span>
         </a>
-       
-      </ul>
-     
+      </div>
     </div>
   </body>
 </html>
 
+<div class="whats"></div>

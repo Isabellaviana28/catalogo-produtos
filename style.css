@@ -43,7 +43,6 @@ ul li a {
   text-decoration: none;
 }
 ul {
-
   list-style-type: none;
 }
 #linha-horizontal-pequena {
@@ -54,20 +53,37 @@ ul {
 }
 
 .ativo {
- font-weight: bold;
+  font-weight: bold;
 }
 #iconeavental {
-  width: 220px; 
-  right: -30px;
-}
-
-#iconealmofada {
-  width: 220px; 
-  right: -30px;
+  border-radius: 8px;
+  display: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 100px 200px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 10px;
+  
 }
 
 #iconebanco {
-  width: 220px; 
-  right: -30px;
+  border-radius: 8px;
+  display: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0px 20px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#iconealmofada {
+  border-radius: 8px;
+  display: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 4px 10px;
+  font-size: 14px;
+  margin-top: 10px;
 }
 
